@@ -1,6 +1,6 @@
 # Prusa Camera Docker Setup
 
-This project sets up a Docker container to capture images from a Logitech C270 webcam and upload them to a specified URL. The configuration is managed via a `.env` file for easy customization.
+This project sets up a Docker container to capture images from a Logitech C270 (or any other) webcam and upload them to a specified URL. The configuration is managed via a `.env` file for easy customization.
 
 ## Prerequisites
 
