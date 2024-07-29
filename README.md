@@ -6,14 +6,17 @@ This project sets up a Docker container to capture images from a Logitech C270 (
 
 - Docker
 - Docker Compose
+- TOKEN and FIGERPRINT from Prusa Connect
+   - please check the guide from [nunofgs](https://gist.github.com/nunofgs/84861ee453254823be6b069ebbce9ad2)
 
 ## Setup Instructions
 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/engineer-86/prusa_connect_usb_cam
+
+   cd prusa_connect_usb_cam
    ```
 
 2. **Create and configure the `.env` file:**
@@ -132,6 +135,11 @@ This project sets up a Docker container to capture images from a Logitech C270 (
 - `VIDEO_DEVICE`: The video device used for capturing images (e.g., `/dev/video0`).
 - `FINGERPRINT`: The fingerprint used for the HTTP request header.
 - `TOKEN`: The token used for the HTTP request header.
+
+## Acknowledgements
+
+This project was inspired by [nunofgs](https://gist.github.com/nunofgs/84861ee453254823be6b069ebbce9ad2).
+He created the script to capture images from a webcam and upload them to a specified URL. Thanks to him for the inspiration.
 
 ## License
 
